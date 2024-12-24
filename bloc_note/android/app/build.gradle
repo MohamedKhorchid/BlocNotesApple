@@ -58,8 +58,8 @@ android {
         applicationId "com.mycompany.blocnote"
         minSdkVersion 23
         targetSdkVersion 34
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        versionCode 3
+        versionName "1.0.3"
     }
 
    signingConfigs {
