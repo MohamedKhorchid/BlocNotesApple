@@ -240,7 +240,11 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                                                 ],
                                               ),
                                               Text(
-                                                listViewNoteRecord.contenu,
+                                                listViewNoteRecord.contenu
+                                                    .maybeHandleOverflow(
+                                                  maxChars: 100,
+                                                  replacement: '…',
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium

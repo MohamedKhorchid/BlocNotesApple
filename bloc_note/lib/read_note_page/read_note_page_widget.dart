@@ -212,17 +212,6 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Dernière modification le : ',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodySmall
-                                        .override(
-                                          fontFamily: 'Inter',
-                                          color: FlutterFlowTheme.of(context)
-                                              .secondaryText,
-                                          letterSpacing: 0.0,
-                                        ),
-                                  ),
-                                  Text(
                                     dateTimeFormat(
                                       "d/M/y",
                                       widget!.date,
