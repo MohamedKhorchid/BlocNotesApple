@@ -33,7 +33,16 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     compileSdkVersion 34
-    
+    namespace 'com.mycompany.blocnote'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17  // Utiliser Java 21
+        targetCompatibility JavaVersion.VERSION_17  // Utiliser Java 21
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"  // Utiliser Java 21 pour Kotlin aussi
+    }    
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -49,16 +58,17 @@ android {
         applicationId "com.mycompany.blocnote"
         minSdkVersion 23
         targetSdkVersion 34
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        versionCode 10
+        versionName "1.0.10"
     }
 
    signingConfigs {
        release {
-           keyAlias keystoreProperties['keyAlias']
-           keyPassword keystoreProperties['keyPassword']
-           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-           storePassword keystoreProperties['storePassword']
+           keyAlias 'my-key-alias'
+           keyPassword 'testtodo'
+           storeFile file('C:/Users/Chick/OneDrive/Applications/Apple/BlocNotesApple/bloc_note/android/app/my-release-key.jks')
+           storePassword 'testtodo'
+           storeType 'pkcs12'
        }
    }
 
@@ -66,7 +76,7 @@ android {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
 }
