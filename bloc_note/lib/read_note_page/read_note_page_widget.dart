@@ -73,7 +73,9 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
             },
           ),
           title: Text(
-            'Ma Note',
+            FFLocalizations.of(context).getText(
+              'wwy38dp9' /* Ma Note */,
+            ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Inter Tight',
                   color: FlutterFlowTheme.of(context).primary,
@@ -147,6 +149,7 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   FlutterFlowAdBanner(
+                    width: 320.0,
                     height: 50.0,
                     showsTestAd: false,
                     iOSAdUnitID: 'ca-app-pub-5902757634604822/1966471799',
@@ -154,7 +157,7 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                        EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 10.0, 20.0),
                     child: Material(
                       color: Colors.transparent,
                       elevation: 2.0,
@@ -197,7 +200,9 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
                                 ),
                               ),
                               Text(
-                                'Dernière modification le :',
+                                FFLocalizations.of(context).getText(
+                                  'psc7c4ow' /* Dernière modification le : */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -231,6 +236,7 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
                                 ],
                               ),
                               FlutterFlowAdBanner(
+                                width: 320.0,
                                 height: 50.0,
                                 showsTestAd: false,
                                 iOSAdUnitID:

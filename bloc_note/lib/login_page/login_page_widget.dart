@@ -9,9 +9,9 @@ import 'package:provider/provider.dart';
 import 'login_page_model.dart';
 export 'login_page_model.dart';
 
+/// generate the anonymous loggin page of this app in french something that is
+/// not using termes like "login" or similar but more like "commencez"
 class LoginPageWidget extends StatefulWidget {
-  /// generate the anonymous loggin page of this app in french something that is
-  /// not using termes like "login" or similar but more like "commencez"
   const LoginPageWidget({super.key});
 
   @override
@@ -84,7 +84,9 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              'Utilisez Bloc-Notes+ sans attendre. \nVos notes seront sauvegardées sur votre appareil.',
+                              FFLocalizations.of(context).getText(
+                                'yz055035' /* Utilisez Bloc-Notes+ sans atte... */,
+                              ),
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
@@ -107,7 +109,9 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                 context.goNamedAuth(
                                     'pageAccueil', context.mounted);
                               },
-                              text: 'Commencer à écrire',
+                              text: FFLocalizations.of(context).getText(
+                                '9qfpjhs2' /* Commencer à écrire */,
+                              ),
                               icon: Icon(
                                 Icons.arrow_forward,
                                 color: FlutterFlowTheme.of(context).info,

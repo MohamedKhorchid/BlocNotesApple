@@ -70,7 +70,9 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
             },
           ),
           title: Text(
-            'Créer une note',
+            FFLocalizations.of(context).getText(
+              'tlzf7rzp' /* Créer une note */,
+            ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Inter Tight',
                   color: FlutterFlowTheme.of(context).primary,
@@ -91,6 +93,7 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   FlutterFlowAdBanner(
+                    width: 320.0,
                     height: 50.0,
                     showsTestAd: false,
                     iOSAdUnitID: 'ca-app-pub-5902757634604822/1215630935',
@@ -120,7 +123,9 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                hintText: 'Titre de la note',
+                                hintText: FFLocalizations.of(context).getText(
+                                  'vtuio90h' /* Titre de la note */,
+                                ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -162,7 +167,9 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                hintText: 'Commencez à écrire...',
+                                hintText: FFLocalizations.of(context).getText(
+                                  't5mob75v' /* Commencez à écrire... */,
+                                ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyLarge
                                     .override(
@@ -190,6 +197,7 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                     ),
                   ),
                   FlutterFlowAdBanner(
+                    width: 320.0,
                     height: 50.0,
                     showsTestAd: false,
                     iOSAdUnitID: 'ca-app-pub-5902757634604822/9686277196',
@@ -208,7 +216,9 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
 
                       context.pushNamed('pageAccueil');
                     },
-                    text: 'Enregistrer',
+                    text: FFLocalizations.of(context).getText(
+                      '3m5o4cyk' /* Enregistrer */,
+                    ),
                     icon: Icon(
                       Icons.save,
                       color: FlutterFlowTheme.of(context).info,
@@ -233,6 +243,7 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                     ),
                   ),
                   FlutterFlowAdBanner(
+                    width: 320.0,
                     height: 50.0,
                     showsTestAd: false,
                     iOSAdUnitID: 'ca-app-pub-5902757634604822/4078727293',
@@ -257,7 +268,9 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              'Informations',
+                              FFLocalizations.of(context).getText(
+                                'tc1lh8xt' /* Informations */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
                                   .override(
@@ -272,7 +285,9 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  'Dernière modification:',
+                                  FFLocalizations.of(context).getText(
+                                    'cjotsvyc' /* Dernière modification: */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

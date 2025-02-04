@@ -34,7 +34,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     compileSdkVersion 34
     namespace 'com.mycompany.blocnote'
-
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17  // Utiliser Java 21
         targetCompatibility JavaVersion.VERSION_17  // Utiliser Java 21
@@ -42,7 +42,7 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"  // Utiliser Java 21 pour Kotlin aussi
-    }    
+    }
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -58,8 +58,8 @@ android {
         applicationId "com.mycompany.blocnote"
         minSdkVersion 23
         targetSdkVersion 34
-        versionCode 10
-        versionName "1.0.10"
+        versionCode 20
+        versionName "20.0.0"
     }
 
    signingConfigs {

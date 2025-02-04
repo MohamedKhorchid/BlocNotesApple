@@ -16,9 +16,17 @@
 	<string>BlocNote</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>fr</string>
+		<string>en</string>
+		<string>ar</string>
+		<string>es</string>
+		<string>pt</string>
+	</array>
 
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.4</string>
+	<string>20</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -49,7 +57,7 @@
 
 
 	<key>CFBundleVersion</key>
-	<string>4</string>
+	<string>20</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 
