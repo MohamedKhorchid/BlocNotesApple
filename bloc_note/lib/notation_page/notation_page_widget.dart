@@ -298,38 +298,6 @@ class _NotationPageWidgetState extends State<NotationPageWidget>
                                   borderRadius: BorderRadius.circular(28.0),
                                 ),
                               ),
-                              FFButtonWidget(
-                                onPressed: () async {
-                                  await launchURL(
-                                      'https://play.google.com/store/apps/details?id=com.mycompany.blocnote');
-                                },
-                                text: FFLocalizations.of(context).getText(
-                                  'uyfs2jzd' /* Noter sur le PlayStore */,
-                                ),
-                                icon: Icon(
-                                  Icons.rate_review,
-                                  color: FlutterFlowTheme.of(context).info,
-                                  size: 15.0,
-                                ),
-                                options: FFButtonOptions(
-                                  width: MediaQuery.sizeOf(context).width * 1.0,
-                                  height: 56.0,
-                                  padding: EdgeInsets.all(8.0),
-                                  iconPadding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 0.0, 0.0, 0.0),
-                                  color: FlutterFlowTheme.of(context).primary,
-                                  textStyle: FlutterFlowTheme.of(context)
-                                      .titleMedium
-                                      .override(
-                                        fontFamily: 'Inter Tight',
-                                        color:
-                                            FlutterFlowTheme.of(context).info,
-                                        letterSpacing: 0.0,
-                                      ),
-                                  elevation: 3.0,
-                                  borderRadius: BorderRadius.circular(28.0),
-                                ),
-                              ),
                             ].divide(SizedBox(height: 24.0)),
                           ),
                         ),
