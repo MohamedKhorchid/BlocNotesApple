@@ -806,10 +806,10 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2025-02-04T14:12:31.242523Z",
+  "generated": "2025-02-11T13:10:20.800743Z",
   "generator": "pub",
-  "generatorVersion": "3.6.0",
+  "generatorVersion": "3.6.1",
   "flutterRoot": "file:///C:/Users/Chick/Downloads/flutter_windows_3.27.0-stable/flutter",
-  "flutterVersion": "3.27.0",
+  "flutterVersion": "3.27.3",
   "pubCache": "file:///C:/Users/Chick/AppData/Local/Pub/Cache"
 }

@@ -97,17 +97,20 @@ class _UpdatePageWidgetState extends State<UpdatePageWidget> {
         body: SafeArea(
           top: true,
           child: Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(24.0, 24.0, 24.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(24.0, 24.0, 24.0, 24.0),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/7027226781',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/6804962982',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/9406571985',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/6804962982',
+                    ),
                   ),
                   Padding(
                     padding:
@@ -207,12 +210,15 @@ class _UpdatePageWidgetState extends State<UpdatePageWidget> {
                       ),
                     ),
                   ),
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/1201282517',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/9337663531',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/7606179819',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/6676241527',
+                    ),
                   ),
                   Padding(
                     padding:
@@ -253,16 +259,19 @@ class _UpdatePageWidgetState extends State<UpdatePageWidget> {
                       ),
                     ),
                   ),
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/7060113850',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/7634828921',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/7062382197',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/6264305844',
+                    ),
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 10.0, 0.0),
+                        EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 10.0, 20.0),
                     child: Material(
                       color: Colors.transparent,
                       elevation: 2.0,

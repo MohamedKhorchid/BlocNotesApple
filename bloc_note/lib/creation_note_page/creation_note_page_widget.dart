@@ -92,12 +92,15 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/1215630935',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/3172839732',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/8315754111',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/3858506496',
+                    ),
                   ),
                   Material(
                     color: Colors.transparent,
@@ -196,12 +199,15 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                       ),
                     ),
                   ),
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/9686277196',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/1859758069',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/7414608128',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/3858506496',
+                    ),
                   ),
                   FFButtonWidget(
                     onPressed: () async {
@@ -242,12 +248,15 @@ class _CreationNotePageWidgetState extends State<CreationNotePageWidget> {
                       borderRadius: BorderRadius.circular(28.0),
                     ),
                   ),
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/4078727293',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/3650222589',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/9066601145',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/2545424821',
+                    ),
                   ),
                   Material(
                     color: Colors.transparent,

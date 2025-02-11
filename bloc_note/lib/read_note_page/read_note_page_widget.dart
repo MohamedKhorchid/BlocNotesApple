@@ -148,12 +148,15 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/1966471799',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/8233594727',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/4436218853',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/8619006449',
+                    ),
                   ),
                   Padding(
                     padding:
@@ -240,9 +243,9 @@ class _ReadNotePageWidgetState extends State<ReadNotePageWidget> {
                                 height: 50.0,
                                 showsTestAd: false,
                                 iOSAdUnitID:
-                                    'ca-app-pub-5902757634604822/2765645620',
+                                    'ca-app-pub-5902757634604822/2764044532',
                                 androidAdUnitID:
-                                    'ca-app-pub-5902757634604822/5200237270',
+                                    'ca-app-pub-5902757634604822/4268697893',
                               ),
                               Text(
                                 valueOrDefault<String>(

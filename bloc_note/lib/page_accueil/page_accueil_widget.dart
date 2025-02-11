@@ -110,12 +110,15 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/2528712609',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/4433950517',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/3666934806',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/8567035555',
+                    ),
                   ),
                   Padding(
                     padding:
@@ -338,12 +341,15 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                       ),
                     ),
                   ),
-                  FlutterFlowAdBanner(
-                    width: 320.0,
-                    height: 50.0,
-                    showsTestAd: false,
-                    iOSAdUnitID: 'ca-app-pub-5902757634604822/8425166416',
-                    androidAdUnitID: 'ca-app-pub-5902757634604822/4663953176',
+                  Align(
+                    alignment: AlignmentDirectional(0.0, 0.0),
+                    child: FlutterFlowAdBanner(
+                      width: 320.0,
+                      height: 50.0,
+                      showsTestAd: false,
+                      iOSAdUnitID: 'ca-app-pub-5902757634604822/1941917457',
+                      androidAdUnitID: 'ca-app-pub-5902757634604822/6714935825',
+                    ),
                   ),
                   Padding(
                     padding:
