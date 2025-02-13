@@ -1,0 +1,1 @@
+ C:\\Users\\Chick\\OneDrive\\Applications\\Apple\\BlocNotesApple\\bloc_note\\.dart_tool\\flutter_build\\5dd0730d815180fcabadb28352c2e44f\\native_assets.json: 

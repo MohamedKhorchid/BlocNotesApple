@@ -1,0 +1,2 @@
+C:/Users/Chick/OneDrive/Applications/Apple/BlocNotesApple/bloc_note/android/app/.cxx/Debug/s1q2sx2b/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Chick/OneDrive/Applications/Apple/BlocNotesApple/bloc_note/android/app/.cxx/Debug/s1q2sx2b/armeabi-v7a/CMakeFiles/rebuild_cache.dir
